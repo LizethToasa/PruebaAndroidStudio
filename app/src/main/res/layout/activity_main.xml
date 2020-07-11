@@ -6,6 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:text="Eliminar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="377dp" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="231dp"
@@ -61,19 +69,36 @@
         android:layout_width="178dp"
         android:layout_height="44dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:text="REGISTRAR"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt3" />
 
     <ListView
         android:id="@+id/datos"
-        android:layout_width="381dp"
-        android:layout_height="283dp"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:text="Modificar"
+        app:layout_constraintTop_toBottomOf="@+id/txt3"
+        tools:layout_editor_absoluteX="217dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="178dp"
+        android:layout_height="44dp"
+        android:text="Ver Todo"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="377dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
