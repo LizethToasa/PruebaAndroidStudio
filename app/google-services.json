@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "5450914822",
+    "firebase_url": "https://pruebaandroidstudio-830e5.firebaseio.com",
+    "project_id": "pruebaandroidstudio-830e5",
+    "storage_bucket": "pruebaandroidstudio-830e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5450914822:android:7f57e42d69b7a54a9ef787",
+        "android_client_info": {
+          "package_name": "com.example.pruebaandroidstudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5450914822-ha50ut7ff8tftetfl51gv3v900c9r26a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pruebaandroidstudio",
+            "certificate_hash": "ee0463bc23f292c5c2a54d42d7741af7172624bb"
+          }
+        },
+        {
+          "client_id": "5450914822-48d0os3ojasamthei4ec9gposfjvotuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVOXZVWDi6vHSw3ZRCOWsxDQzvAYJvtIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5450914822-48d0os3ojasamthei4ec9gposfjvotuu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
